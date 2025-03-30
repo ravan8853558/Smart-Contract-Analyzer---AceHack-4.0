@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Contract Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>🔍 Smart Contract Analyzer</h1>
+        <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+    </header>
+    <main>
+        <div class="container">
+            <section class="input-section">
+                <label for="contractAddress">Enter Contract Address:</label>
+                <input type="text" id="contractAddress" placeholder="0x...">
+                <button onclick="analyzeContract()">🚀 Analyze</button>
+            </section>
+            <section class="output-section">
+                <h2>📜 Analysis Report</h2>
+                <pre id="reportOutput">Waiting for input...</pre>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
