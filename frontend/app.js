@@ -1,5 +1,5 @@
 const BSC_API_KEY = "9ID4ZDDY4V1AQZMXZBIV42UEZY794RNE73";
-const MORALIS_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...";
+const MORALIS_API_KEY = "YOur-API";
 const BSC_API_URL = "https://api.bscscan.com/api";
 const MORALIS_API_URL = "https://deep-index.moralis.io/api/v2";
 
@@ -51,3 +51,4 @@ async function fetchWalletBalance(address) {
 document.getElementById("darkModeToggle").addEventListener("click", () => {
     document.body.classList.toggle("dark-mode");
 });
+
