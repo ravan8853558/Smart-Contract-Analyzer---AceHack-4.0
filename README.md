@@ -3,9 +3,10 @@
 🚀 **Analyze Smart Contracts & Wallets for Security Risks**
 
 ## 🌟 Features:
-- ✅ Analyze Smart Contracts using **BSCScan API**
-- ✅ Check Wallet Balance using **Moralis API**
+- ✅ Analyze Smart Contracts using
+- ✅ Check Wallet Balance using
 - ✅ Secure API Keys Handling
 - ✅ Zero Cost Deployment
 
 ## 📂 Project Structure:
+
